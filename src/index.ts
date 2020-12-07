@@ -1,4 +1,3 @@
-import { Sorter } from './Sorter';
 import { NumberCollection } from './NumberCollection';
 import { CharacterCollection } from './CharacterCollection';
 import { LinkedList } from './LinkedList';
@@ -11,6 +10,10 @@ linkedList.add(-10);
 linkedList.add(-3);
 linkedList.add(4);
 
-const sorter = new Sorter(linkedList);
-sorter.sort();
+numberCollection.sort();
+charactreCollection.sort();
+linkedList.sort();
+
+console.log(numberCollection.data);
+console.log(charactreCollection.data);
 linkedList.print();
